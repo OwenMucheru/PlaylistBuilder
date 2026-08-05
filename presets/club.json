@@ -1,0 +1,20 @@
+{
+  "display_name": "Club Night",
+  "description": "High-energy, harmonically strict set for a peak-time club room. Minimal warmup, sustained peak, dramatic finale.",
+  "target_bpm_range": [118, 132],
+  "genre_percentages": {
+    "Amapiano": 25,
+    "Afro House": 25,
+    "House": 20,
+    "EDM": 15,
+    "Afrobeats": 10,
+    "Hip Hop": 5
+  },
+  "artist_separation": 3,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.10, "target_energy_min": 40, "target_energy_max": 60},
+    {"phase": "build",  "start_fraction": 0.10, "end_fraction": 0.30, "target_energy_min": 55, "target_energy_max": 80},
+    {"phase": "peak",   "start_fraction": 0.30, "end_fraction": 0.90, "target_energy_min": 75, "target_energy_max": 100},
+    {"phase": "finale", "start_fraction": 0.90, "end_fraction": 1.01, "target_energy_min": 55, "target_energy_max": 85}
+  ]
+}

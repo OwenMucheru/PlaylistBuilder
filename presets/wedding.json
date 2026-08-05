@@ -1,0 +1,22 @@
+{
+  "display_name": "Wedding Reception",
+  "description": "Crowd-pleasing, emotionally arced set spanning dinner-hour warmth to a full dancefloor peak and a sentimental finale.",
+  "target_bpm_range": [88, 126],
+  "genre_percentages": {
+    "R&B": 20,
+    "Afrobeats": 20,
+    "Old School": 15,
+    "Pop": 15,
+    "Amapiano": 10,
+    "Hip Hop": 10,
+    "Gospel": 5,
+    "Reggae": 5
+  },
+  "artist_separation": 4,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.20, "target_energy_min": 15, "target_energy_max": 40},
+    {"phase": "build",  "start_fraction": 0.20, "end_fraction": 0.50, "target_energy_min": 35, "target_energy_max": 65},
+    {"phase": "peak",   "start_fraction": 0.50, "end_fraction": 0.88, "target_energy_min": 60, "target_energy_max": 100},
+    {"phase": "finale", "start_fraction": 0.88, "end_fraction": 1.01, "target_energy_min": 25, "target_energy_max": 60}
+  ]
+}

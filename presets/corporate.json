@@ -1,0 +1,20 @@
+{
+  "display_name": "Corporate Event",
+  "description": "Background-friendly, broadly inoffensive set. Low ceiling on energy, gentle movement, no hard peak.",
+  "target_bpm_range": [90, 118],
+  "genre_percentages": {
+    "Pop": 25,
+    "R&B": 20,
+    "Soul": 15,
+    "Old School": 15,
+    "Afrobeats": 15,
+    "Latin": 10
+  },
+  "artist_separation": 5,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.25, "target_energy_min": 15, "target_energy_max": 40},
+    {"phase": "build",  "start_fraction": 0.25, "end_fraction": 0.60, "target_energy_min": 30, "target_energy_max": 55},
+    {"phase": "peak",   "start_fraction": 0.60, "end_fraction": 0.90, "target_energy_min": 40, "target_energy_max": 65},
+    {"phase": "finale", "start_fraction": 0.90, "end_fraction": 1.01, "target_energy_min": 20, "target_energy_max": 45}
+  ]
+}

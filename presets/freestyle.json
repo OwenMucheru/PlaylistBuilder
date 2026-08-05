@@ -1,0 +1,13 @@
+{
+  "display_name": "Freestyle Session",
+  "description": "No genre bias — the full library is in play. Balanced, gradually building energy curve suited to practice sets and mixtapes.",
+  "target_bpm_range": [70, 140],
+  "genre_percentages": {},
+  "artist_separation": 3,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.15, "target_energy_min": 20, "target_energy_max": 45},
+    {"phase": "build",  "start_fraction": 0.15, "end_fraction": 0.45, "target_energy_min": 40, "target_energy_max": 70},
+    {"phase": "peak",   "start_fraction": 0.45, "end_fraction": 0.85, "target_energy_min": 65, "target_energy_max": 100},
+    {"phase": "finale", "start_fraction": 0.85, "end_fraction": 1.01, "target_energy_min": 30, "target_energy_max": 65}
+  ]
+}

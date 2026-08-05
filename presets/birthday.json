@@ -1,0 +1,21 @@
+{
+  "display_name": "Birthday Party",
+  "description": "Fun, upbeat, crowd-inclusive set spanning multiple generations of hits with a strong sustained party peak.",
+  "target_bpm_range": [92, 128],
+  "genre_percentages": {
+    "Afrobeats": 20,
+    "Amapiano": 18,
+    "Old School": 15,
+    "Hip Hop": 15,
+    "Kenyan": 12,
+    "Pop": 10,
+    "Dancehall": 10
+  },
+  "artist_separation": 3,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.15, "target_energy_min": 25, "target_energy_max": 50},
+    {"phase": "build",  "start_fraction": 0.15, "end_fraction": 0.40, "target_energy_min": 45, "target_energy_max": 70},
+    {"phase": "peak",   "start_fraction": 0.40, "end_fraction": 0.88, "target_energy_min": 65, "target_energy_max": 100},
+    {"phase": "finale", "start_fraction": 0.88, "end_fraction": 1.01, "target_energy_min": 35, "target_energy_max": 65}
+  ]
+}

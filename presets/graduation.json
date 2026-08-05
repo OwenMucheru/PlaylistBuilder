@@ -1,0 +1,20 @@
+{
+  "display_name": "Graduation Party",
+  "description": "Youthful, celebratory set leaning heavily on current Kenyan/African hits with a sustained party peak.",
+  "target_bpm_range": [95, 128],
+  "genre_percentages": {
+    "Kenyan": 25,
+    "Afrobeats": 20,
+    "Amapiano": 20,
+    "Hip Hop": 15,
+    "Dancehall": 10,
+    "Pop": 10
+  },
+  "artist_separation": 3,
+  "energy_curve": [
+    {"phase": "warmup", "start_fraction": 0.0, "end_fraction": 0.12, "target_energy_min": 30, "target_energy_max": 55},
+    {"phase": "build",  "start_fraction": 0.12, "end_fraction": 0.35, "target_energy_min": 50, "target_energy_max": 75},
+    {"phase": "peak",   "start_fraction": 0.35, "end_fraction": 0.90, "target_energy_min": 70, "target_energy_max": 100},
+    {"phase": "finale", "start_fraction": 0.90, "end_fraction": 1.01, "target_energy_min": 45, "target_energy_max": 75}
+  ]
+}

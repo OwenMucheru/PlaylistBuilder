@@ -1,0 +1,13 @@
+# OmniPlaylist — runtime dependencies
+PySide6>=6.6.0
+lxml>=5.0.0
+rapidfuzz>=3.6.0
+mutagen>=1.47.0
+
+# Packaging
+pyinstaller>=6.3.0
+
+# Dev / QA
+pytest>=8.0.0
+black>=24.1.0
+ruff>=0.2.0
