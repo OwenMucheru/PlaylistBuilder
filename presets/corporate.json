@@ -1,7 +1,7 @@
 {
   "display_name": "Corporate Event",
   "description": "Background-friendly, broadly inoffensive set. Low ceiling on energy, gentle movement, no hard peak.",
-  "target_bpm_range": [90, 118],
+  "target_bpm_range": [70, 160],
   "genre_percentages": {
     "Pop": 25,
     "R&B": 20,

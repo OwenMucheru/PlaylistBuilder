@@ -1,7 +1,7 @@
 {
   "display_name": "Club Night",
   "description": "High-energy, harmonically strict set for a peak-time club room. Minimal warmup, sustained peak, dramatic finale.",
-  "target_bpm_range": [118, 132],
+  "target_bpm_range": [70, 160],
   "genre_percentages": {
     "Amapiano": 25,
     "Afro House": 25,

@@ -1,7 +1,7 @@
 {
   "display_name": "Graduation Party",
   "description": "Youthful, celebratory set leaning heavily on current Kenyan/African hits with a sustained party peak.",
-  "target_bpm_range": [95, 128],
+  "target_bpm_range": [70, 160],
   "genre_percentages": {
     "Kenyan": 25,
     "Afrobeats": 20,

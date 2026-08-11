@@ -1,7 +1,7 @@
 {
   "display_name": "Freestyle Session",
   "description": "No genre bias — the full library is in play. Balanced, gradually building energy curve suited to practice sets and mixtapes.",
-  "target_bpm_range": [70, 140],
+  "target_bpm_range": [70, 160],
   "genre_percentages": {},
   "artist_separation": 3,
   "energy_curve": [

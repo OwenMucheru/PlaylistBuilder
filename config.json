@@ -1,10 +1,11 @@
 {
-  "max_bpm_jump": 2.0,
+  "max_bpm_jump": 5.0,
   "artist_separation": 3,
   "harmonic_mixing": true,
   "dark_mode": true,
   "default_preset": "freestyle",
   "duration_tolerance_seconds": 120,
   "last_database_path": "",
-  "output_directory": "output"
+  "output_directory": "output",
+  "max_track_duration_seconds": 660
 }

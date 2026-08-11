@@ -1,7 +1,7 @@
 {
   "display_name": "Wedding Reception",
   "description": "Crowd-pleasing, emotionally arced set spanning dinner-hour warmth to a full dancefloor peak and a sentimental finale.",
-  "target_bpm_range": [88, 126],
+  "target_bpm_range": [70, 160],
   "genre_percentages": {
     "R&B": 20,
     "Afrobeats": 20,
